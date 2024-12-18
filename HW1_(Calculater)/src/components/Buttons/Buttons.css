@@ -1,0 +1,55 @@
+.btn {
+    height: 70px;
+    width: 75px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.25s ease; 
+}
+
+.controls {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 251px;
+    gap: 13px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.controls .blueBtn {
+    background-color: hsl(219, 49%, 46%);
+}
+.controls .blueBtn:hover {
+    background-color: hsl(219, 49%, 36%);
+}
+.controls .blueBtn:active {
+    background-color: hsl(219, 49%, 56%);
+}
+
+
+.controls .operation {
+    background-color: hsl(28, 87%, 62%);
+}
+.controls .operation:hover {
+    background-color: hsl(28, 87%, 52%);
+}
+.controls .operation:active {
+    background-color: hsl(28, 87%, 72%);
+}
+
+
+.controls .equals {
+    height: 80px;
+    width: 334%;
+    background-color: hsl(145, 63%, 42%);
+    font-size: 1.8rem;
+}
+.controls .equals:hover {
+    background-color: hsl(145, 63%, 32%);
+}
+.controls .equals:active {
+    background-color: hsl(145, 63%, 52%);
+}
